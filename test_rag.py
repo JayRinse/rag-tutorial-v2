@@ -2,7 +2,7 @@
 from query_data import query_rag
 from langchain_community.llms.ollama import Ollama
 # %%
-
+print("hello")
 EVAL_PROMPT = """
 Expected Response: {expected_response}
 Actual Response: {actual_response}
